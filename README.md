@@ -2,7 +2,7 @@
 
 Title: *Towards Deep Rotation Equivariant and Invariant Representation Learning using Graph Convolutional Network*
 
-![alt text] (figures/fig_problem-2.png)
+![alt text](figures/fig_problem-2.png)
 
 This repository is a PyTorch Implementation of our submission to ICML'21.
 
