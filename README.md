@@ -11,7 +11,7 @@ This repository is a PyTorch Implementation of our submission to ICML'21.
 
 ## Conda Environment Set-Up
 
-'''
+```
 $ conda env create -f environment.yml
 $ conda activate wn_gcn
-'''
+```
