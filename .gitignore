@@ -4,13 +4,11 @@ data/cifar-10-batches-py/*
 data/cifar-10-python.tar.gz
 data/*
 __pycache__/
-images/*
 *.pth.tar
 state_dict/*
 *.png
 viz_examples/*
 *.mp4
-*.jpg
 *.pth
 *.tar
 *.pth.tar
