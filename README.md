@@ -1,4 +1,4 @@
-# Weighted Nearest-Neighbor Graph Convolutional Network (WN-GCN)
+# Weighted Nearest-Neighbor Graph Convolutional Network \\ (WN-GCN)
 
 Title: *Towards Deep Rotation Equivariant and Invariant Representation Learning using Graph Convolutional Network*
 
