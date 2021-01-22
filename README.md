@@ -24,8 +24,6 @@ $ conda activate wn_gcn
 Download pre-trained model for [R-MNIST](https://kaistackr-my.sharepoint.com/:u:/g/personal/shwang_14_kaist_ac_kr/EeJa9ABKh3lHiwGB-cR97dwBYOz_k1exJOf1D-8ROFpwqQ?e=ujFg99) and [R-CIFAR-10](https://kaistackr-my.sharepoint.com/:u:/g/personal/shwang_14_kaist_ac_kr/EZZnIl_6z5ZPhBDp00rzEP0BVE99btFH9Xp9jHRJ4BZ-qg?e=hwNcgR) 
 --->
 
-Test classification over
-
 * R-MNIST
 ```
 python train.py --test_only True --test_dataset 'RotNIST' --test_model_name './pretrained_models/pretrained_wngcn_mnist.pth.tar'
