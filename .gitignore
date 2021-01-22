@@ -7,9 +7,6 @@ __pycache__/
 state_dict/*
 viz_examples/*
 *.mp4
-*.pth
-*.tar
-*.pth.tar
 *.csv
 *.txt
 commands.txt
