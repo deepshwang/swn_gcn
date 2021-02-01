@@ -36,7 +36,7 @@ class WN_GCN_layer(nn.Module):
 
         ## Fixing alpha is done in train.py by blocking the gradients over them
         w = torch.tensor([[alpha.clone(),  alpha.clone(), alpha.clone()],
-                          [alpha.clone(),  beta, alpha.clone()],
+                          [alpha.clone(),  beta.clone(), alpha.clone()],
                           [alpha.clone(),  alpha.clone(), alpha.clone()]])
         w = w.view(1, 1, kernel_size, kernel_size).repeat(out_channel, 1, 1, 1)
         w = w.to('cuda')
