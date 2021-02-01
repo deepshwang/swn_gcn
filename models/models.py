@@ -31,7 +31,7 @@ class WN_GCN_layer(nn.Module):
     def weighted_aggregation(self, in_channel, out_channel, kernel_size):
 
 
-        alpha = torch.nn.Parameter(torch.tensor(1/9), requires_grad=True).to('cuda')
+        alpha = torch.nn.Parameter(torch.tensor(1/9), requires_grad=False).to('cuda')
         beta = torch.nn.Parameter(torch.tensor(1/9), requires_grad=True).to('cuda')
 
         ## Fixing alpha is done in train.py by blocking the gradients over them
