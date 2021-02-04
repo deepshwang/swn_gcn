@@ -4,12 +4,12 @@ import pdb
 import torch.nn.functional as F
 
 
-class WN_GCN_layer(nn.Module):
+class SWN_GCN_layer(nn.Module):
     '''
     Implementation of WN-GCN
     '''
     def __init__(self, args, pointconv_cfg, reverse=False):
-        super(WN_GCN_layer, self).__init__()
+        super(SWN_GCN_layer, self).__init__()
         self.reverse = reverse
         i = 0
         if reverse:
@@ -82,14 +82,14 @@ class CosFaceClassifier(nn.Module):
         return out
 
 
-class WN_GCN(nn.Module):
+class SWN_GCN(nn.Module):
     '''
     Weighted nearest-Neighbor Graph Convolutional Network Module
     '''
 
     def __init__(self, args, cfgs, cfgs_cls, cosface=True, reverse=False):
 
-        super(WN_GCN, self).__init__()
+        super(SWN_GCN, self).__init__()
         self.encoder = self.make_layer(args, cfgs, reverse)
         self.GAP = torch.nn.AdaptiveAvgPool2d((1, 1))
         if cosface:
@@ -109,5 +109,5 @@ class WN_GCN(nn.Module):
         layer=[]
         for v in cfgs:
             if isinstance(v, list):
-                layer += [WN_GCN_layer(args, v, reverse)]
+                layer += [SWN_GCN_layer(args, v, reverse)]
         return torch.nn.Sequential(*layer)

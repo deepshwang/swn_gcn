@@ -160,7 +160,7 @@ if __name__ == '__main__':
     reverse = False
     if args.test_dataset == 'RotCIFAR10' or args.test_dataset == 'CIFAR10':
         reverse = True
-    model = WN_GCN(args, MODEL_CFGS['F'], CLASSIFIER_CFGS['B'], cosface=args.use_cosface, reverse=reverse)
+    model = SWN_GCN(args, MODEL_CFGS['F'], CLASSIFIER_CFGS['B'], cosface=args.use_cosface, reverse=reverse)
 
     if args.resume_training and not args.test_only:
         print("Resuming Training!")

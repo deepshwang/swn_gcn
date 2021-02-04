@@ -38,7 +38,7 @@ python train.py --test_only True --test_dataset 'RotCIFAR10' --test_model_name '
 
 * MNIST
 ```
-python train.py --train_dataset 'MNIST' --test_dataset 'RotNIST' --m 0.4 --save_bestmodel_name './data/saved_models/wngcn_mnist.pth.tar'
+python train.py --train_dataset 'MNIST' --test_dataset 'RotNIST' --m 0.05 --save_bestmodel_name './data/saved_models/wngcn_mnist.pth.tar'
 ```
 
 * CIFAR-10
