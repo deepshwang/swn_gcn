@@ -1,7 +1,7 @@
 # SWN-GCN
 Arxiv | Code
 
-***Towards Deep Rotation Equivariant and Invariant Representation Learning using Graph Convolutional Network***
+***Equivariance-bridged SO(2) Invariant Representation Learning using Graph Convolutional Networks***
 
 ## Abstract
 
