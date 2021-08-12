@@ -1,5 +1,5 @@
 # SWN-GCN
-[Arxiv](https://arxiv.org/abs/2106.09996)
+\[[Arxiv](https://arxiv.org/abs/2106.09996)\]
 
 ***Equivariance-bridged SO(2) Invariant Representation Learning using Graph Convolutional Networks***
 
