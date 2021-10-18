@@ -1,7 +1,7 @@
 # SWN-GCN (BMVC 2021)
 \[[Arxiv](https://arxiv.org/abs/2106.09996)\]
 
-![alt text](figures/swngcn_tsne_git.png)
+![alt text](figures/swngcn_tsne_git.PNG)
 
 This repository provides the Pytorch implementation of the following paper
 > ***Equivariance-bridged SO(2) Invariant Representation Learning using Graph Convolutional Networks*** <br>
